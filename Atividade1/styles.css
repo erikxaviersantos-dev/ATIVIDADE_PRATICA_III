@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    display: flex; 
+    height: 90vh;
+    background-color: white;
+}
+
+.menu {
+    width: 150px;
+    background-color: rgb(204, 104, 58);
+    color:  rgb(235, 165, 86);;
+    padding: 10px;
+}
+
+.conteudo {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.cabecalho {
+    background-color: rgb(252, 76, 76);
+    color: rgb(235, 165, 86);
+    padding: 10px;
+}
+
+.linha-blocos {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.bloco {
+    flex: 1; 
+    background-color: #f0b34c;
+    height: 100px;
+}

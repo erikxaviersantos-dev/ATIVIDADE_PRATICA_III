@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    height: 400px;
+    background-color: #3f3d3dbe;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-blocos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloco {
+    flex: 1 1 0;
+    min-width: 250px;
+    height: 180px;
+    background-color: #5d3379;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    background-color: #3498db;
+    padding: 40px 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #1a2479;
+    width: 100%;
+    padding: 40px;
+}
